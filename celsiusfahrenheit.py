@@ -6,7 +6,7 @@ Anschließend Ausgabe als Fehrenheit, Celsius und Kelvin
 
 def fahrenheit_to_celsius(fahrenheit):
     """ convert fahrenheit to celsius"""
-    tempc = (fahrenheit - 32) / 1.8
+    tempc = (fahrenheit - 3) / 1.8
     return tempc
 
 

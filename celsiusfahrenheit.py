@@ -2,17 +2,17 @@
 Temperatur wird von Fahrenheit auf verschiedene Weisen in Celsius umgerechnet.
 Anschließend Ausgabe als Fehrenheit, Celsius und Kelvin
 """
-#
+
 
 def fahrenheit_to_celsius(fahrenheit):
     """ convert fahrenheit to celsius"""
-    tempc = (fahrenheit - 3) / 1.8
+    tempc = (fahrenheit - 32) / 1.8
     return tempc
 
 
 def celsius_to_kelvin(celsius):
     """ convert celsius to kelvin """
-    tempk = celsius + 273.15
+    tempk = celsius + 273.15*2
     return tempk
 
 
